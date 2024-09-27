@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import moment from "moment";
-import parseDate from "../../modules/parseDate";
+import parseDate from "../modules/parseDate";
 
 /**
  * ReduxSlice - conf

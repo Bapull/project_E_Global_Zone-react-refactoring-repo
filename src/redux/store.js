@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import user from "./userSlice/userSlice";
-import conf  from './confSlice/confSlice';
-import manager  from './managerSlice/managerSlice'
+import user from "./userSlice";
+import conf  from './confSlice';
+import manager  from './managerSlice'
 
 export default configureStore({
   reducer: {user, conf, manager},
