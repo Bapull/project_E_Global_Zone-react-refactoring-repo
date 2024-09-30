@@ -1,3 +1,4 @@
+// 설정 언어별로 화면에 뜨는 글자를 다르게 하기위한 텍스트 모음 파일
 const language = {
 	korean: {
 		login: {
