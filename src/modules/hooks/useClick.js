@@ -7,6 +7,8 @@ import { useEffect, useRef } from "react";
  * @returns {React.MutableRefObject<null>}
  */
 const useClick = (onClick) => {
+	// 클릭이벤트의 콜백함수를 받아서 ref객체를 반환하는 커스텀 훅
+	// 이 훅의 리턴값을 나중에 DOM객체에 ref로 연결하면 그 객체에 클릭이벤트가 생긴다.
 	const element = useRef();
 	useEffect(() => {
     if (typeof onClick !== "function") {
