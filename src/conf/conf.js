@@ -1,3 +1,7 @@
+// 자주쓰는 문자열들을 변수명으로 만들어서 오타체크를 하기 좋게 만든 파일
+// 코드에 '컴퓨터정보계열' 이라고 쓰면 오타 발생시 런타임에러가 생기지만
+// 이렇게 만들고 이 파일을 import 한 다음에 COMINFO라고 쓰면
+// 오타가 생기면 컴파일에러가 생겨서 훨씬 고치기 편하다
 const MANAGER = "MANAGER";
 const FOREIGNER = "FOREIGNER";
 const KOREAN = "KOREAN";
